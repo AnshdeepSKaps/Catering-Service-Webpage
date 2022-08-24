@@ -1,0 +1,60 @@
+:root {
+  --theme-color: rgb(224, 68, 60);
+  --text-color: rgb(250, 227, 231);
+}
+
+#catering {
+  height: 100vh;
+  width: 100vw;
+  /* border: 4px yellow solid; */
+  position: relative;
+  top: 8vh;
+  background-color: var(--theme-color);
+  /* padding: 50px 2vw; */
+}
+
+#catering-text {
+  width: 45vw;
+  height: 100vh;
+  position: relative;
+  left: 55vw;
+  /* border: 3px solid black; */
+  color: var(--text-color);
+  text-align: center;
+  padding: 20vh 0;
+}
+
+#catering-text h1 {
+  /* text-align: center; */
+  font-size: 5rem;
+  font-weight: 300;
+  /* margin-top: 10vw; */
+}
+
+#catering-text div {
+  /* text-align: justify; */
+  margin-top: 3vh;
+  font-size: 2rem;
+  padding: 0 5vw;
+}
+
+#catering button {
+  margin-top: 5vh;
+  height: 10vh;
+  width: 12vw;
+  font-size: 2.2rem;
+  border-radius: 40px;
+  border: solid 1px var(--text-color);
+  background-color: var(--text-color);
+  color: var(--theme-color);
+  box-shadow: -6px 6px rgb(99, 30, 27);
+  cursor: pointer;
+}
+
+#burger {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 55vw;
+  left: 0vw;
+}

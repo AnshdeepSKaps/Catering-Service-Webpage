@@ -1,0 +1,114 @@
+/* Navigation */
+#navbar {
+  flex-direction: column;
+  /* height:15vh; */
+}
+
+#navbar ul {
+  /* border: red 2px solid; */
+  width: 100vw;
+  padding: -3vh 0;
+  justify-content: center;
+}
+
+#navbar ul li {
+  font-size: 1.2rem;
+  margin: -2vh 1vw;
+  height: 5vh;
+}
+
+#navbar ul li:nth-child(3) {
+  margin-left: 33vw;
+}
+
+#navbar ul li a {
+  /* text-align:center; */
+  font-size: 0.8rem;
+  margin: 0 3vw;
+  width: fit-content;
+}
+
+#navbar .btn {
+  position: absolute;
+  top: 8vh;
+  left: 40vw;
+  height: 3vh;
+  width: 20vw;
+  box-shadow: -3px 3px 0px #7b1a1a;
+}
+
+#navbar .btn p {
+  font-size: 0.5rem;
+}
+
+#logo {
+  height: 5vh;
+}
+
+#logo img {
+  /* position: absolute; */
+  /* left: 45vw; */
+  margin-top: -1.5vh;
+  height: 7vh;
+  /* width:13vw; */
+}
+
+/* Home */
+
+.h-primary {
+  font-size: 2.8rem;
+}
+
+#home p {
+  font-size: 1rem;
+  width: 80vw;
+}
+
+/* Join the ride */
+
+#services {
+  font-size: 4rem;
+}
+
+/* Ordering */
+
+.ordering-text {
+  width: 100vw;
+  padding: 20vh 5vw;
+}
+
+.ordering-img {
+  width: 0;
+}
+
+#pizza {
+  width: 0;
+}
+
+#ordering button {
+  width: 40vw;
+  left: 25vw;
+  top: 1vh;
+}
+
+/* Featured in */
+.images {
+  width: 15vw;
+}
+
+/* Catering */
+
+#catering-text {
+  width: 100vw;
+  left: 0;
+}
+
+#catering button {
+  width: 40vw;
+  left: 30vw;
+  margin-top: 2vh;
+}
+
+#burger {
+  width: 0;
+}
